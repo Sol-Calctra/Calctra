@@ -1,4 +1,4 @@
-# Calctra - 去中心化科学计算资源交易平台
+# Calctra
 
 <div align="center">
   <img src="public/images/logo.png" alt="Calctra Logo" width="200" height="200"/>
