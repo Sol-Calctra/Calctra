@@ -1,7 +1,7 @@
 # Calctra
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Sol-Calctra/Calctra/main/public/images/logo.png" alt="Calctra Logo" width="200" height="200"/>
+  <img src="public/images/logo.png" alt="Calctra Logo" width="200" height="200"/>
   <h3>Decentralized Scientific Computing Resource Matching Platform</h3>
   <p>Connecting Global Computing Resources, Empowering Scientific Research</p>
 </div>
