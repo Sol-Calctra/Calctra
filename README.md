@@ -103,44 +103,14 @@ Create a decentralized, efficient, and fair scientific computing ecosystem, prov
 
 ## System Flow
 
-```
-┌────────────┐     ┌────────────┐     ┌────────────┐
-│            │     │            │     │            │
-│  Resource  ├────►│  Calctra   ├────►│   Demand   │
-│  Provider  │     │  Platform  │     │   Party    │
-└────────────┘     └──────┬─────┘     └────────────┘
-                          │
-                          ▼
-                   ┌──────────────┐
-                   │              │
-                   │  Intelligent │
-                   │  Matching    │
-                   │  Engine      │
-                   └──────┬───────┘
-                          │
-                          ▼
-                   ┌──────────────┐
-                   │              │
-                   │  Smart       │
-                   │  Contract    │
-                   │  Execution   │
-                   └──────┬───────┘
-                          │
-                          ▼
-                   ┌──────────────┐
-                   │              │
-                   │  Task        │
-                   │  Execution   │
-                   │  Validation  │
-                   └──────┬───────┘
-                          │
-                          ▼
-                   ┌──────────────┐
-                   │              │
-                   │  Settlement  │
-                   │  & Rewards   │
-                   │              │
-                   └──────────────┘
+```mermaid
+graph TD
+    A[Resource Provider] -->|Register Resources| B[Calctra Platform]
+    C[Demand Party] -->|Publish Demands| B
+    B --> D[Intelligent Matching Engine]
+    D --> E[Smart Contract Execution]
+    E --> F[Task Execution & Validation]
+    F --> G[Settlement & Rewards]
 ```
 
 1. **Resource Registration**: Computing resource providers register their resources on the platform
@@ -273,7 +243,6 @@ We welcome community contributions! Please check the [Contribution Guidelines](C
 - **Official Website**: [https://www.calctra.fun](https://www.calctra.fun)
 - **GitHub**: [https://github.com/Sol-Calctra/Calctra](https://github.com/Sol-Calctra/Calctra)
 - **Twitter**: [@calctra_sol](https://x.com/calctra_sol)
-- **Discord**: [Calctra Community](https://discord.gg/calctra)
 
 ## License
 
