@@ -1,10 +1,11 @@
 # Calctra
 
-<div align="center">
-  <img src="public/images/logo.png" alt="Calctra Logo" width="200" height="200"/>
-  <h3>Decentralized Scientific Computing Resource Matching Platform</h3>
-  <p>Connecting Global Computing Resources, Empowering Scientific Research</p>
-</div>
+<p align="center">
+  <img width="200" height="200" src="./public/images/logo.png">
+</p>
+
+<h3 align="center">Decentralized Scientific Computing Resource Matching Platform</h3>
+<p align="center">Connecting Global Computing Resources, Empowering Scientific Research</p>
 
 ## Project Overview
 
