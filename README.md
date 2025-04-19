@@ -1,7 +1,7 @@
-# Calctra (CAL)
+# Calctra - 去中心化科学计算资源交易平台
 
 <div align="center">
-  <img src="public/logo.svg" alt="Calctra Logo" width="200" height="200"/>
+  <img src="public/images/logo.png" alt="Calctra Logo" width="200" height="200"/>
   <h3>Decentralized Scientific Computing Resource Matching Platform</h3>
   <p>Connecting Global Computing Resources, Empowering Scientific Research</p>
 </div>

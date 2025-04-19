@@ -46,12 +46,19 @@ const HeroContent = styled.div`
 `;
 
 const LogoContainer = styled.div`
-  font-size: 4rem;
-  font-weight: bold;
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  
+  img {
+    max-width: 200px;
+    height: auto;
+  }
   
   @media (max-width: 768px) {
-    font-size: 2.5rem;
+    img {
+      max-width: 150px;
+    }
   }
 `;
 
@@ -349,9 +356,14 @@ const FooterContent = styled.div`
 `;
 
 const FooterLogo = styled.div`
-  font-size: 2rem;
-  font-weight: bold;
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  
+  img {
+    max-width: 120px;
+    height: auto;
+  }
 `;
 
 const FooterDescription = styled.p`
@@ -523,7 +535,9 @@ export default function HomePage() {
       <HeroSection>
         <Overlay />
         <HeroContent>
-          <LogoContainer>Calctra</LogoContainer>
+          <LogoContainer>
+            <img src="/images/logo.png" alt="Calctra Logo" />
+          </LogoContainer>
           <Tagline>Decentralized Scientific Computing Resource Marketplace</Tagline>
           <SubTagline>
             Connecting global idle computing resources with research needs, 
@@ -682,7 +696,9 @@ export default function HomePage() {
       <Footer>
         <FooterContent>
           <div>
-            <FooterLogo>Calctra</FooterLogo>
+            <FooterLogo>
+              <img src="/images/logo.png" alt="Calctra Logo" />
+            </FooterLogo>
             <FooterDescription>
               Calctra is a decentralized scientific computing resource trading platform
               that connects global computing resources with research demands,
